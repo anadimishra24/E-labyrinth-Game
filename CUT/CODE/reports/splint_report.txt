@@ -1,0 +1,17 @@
+../SRC/project.c: (in function report)
+../SRC/project.c:32:5: Dependent storage assigned to unqualified:
+                          reportfile = fopen("../data/report.txt", "w")
+  Dependent storage is transferred to a non-dependent reference. (Use
+  -dependenttrans to inhibit warning)
+../SRC/project.c:36:18: Argument to exit has implementation defined behavior: 1
+  The argument to exit should be 0, EXIT_SUCCESS or EXIT_FAILURE (Use -exitarg
+  to inhibit warning)
+Command Line: Setting -quiet redundant with current value
+../SRC/project.c: (in function report)
+../SRC/project.c:32:5: Dependent storage assigned to unqualified:
+                          reportfile = fopen("../data/report.txt", "w")
+  Dependent storage is transferred to a non-dependent reference. (Use
+  -dependenttrans to inhibit warning)
+../SRC/project.c:36:18: Argument to exit has implementation defined behavior: 1
+  The argument to exit should be 0, EXIT_SUCCESS or EXIT_FAILURE (Use -exitarg
+  to inhibit warning)

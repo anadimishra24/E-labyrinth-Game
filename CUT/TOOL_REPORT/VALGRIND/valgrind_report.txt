@@ -1,0 +1,349 @@
+==549485== Memcheck, a memory error detector
+==549485== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==549485== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==549485== Command: ../bin/project.bin
+==549485==
+Choose the maze type you want to play
+Square maze - 1
+Rectangular maze - 2
+1
+
+You choose square maze
+1-Easy maze
+2-Medium maze
+3-Hard maze
+9-Quit the game and exit
+
+
+Enter the level you want to play
+1
+
+You choose easy level , can do better
+
+it's a 4*4 maze
+
+21 35 35 15
+6 91 105 10
+114 55 42 5
+14 35 1330 5
+
+
+You are currently at position of 1,1
+You have the following ways
+
+     o
+
+     O
+o   /|\   >
+    /|\
+
+     V
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+3
+
+
+
+     ---------
+
+
+You are currently at position of 1,2
+You have the following ways
+
+     o
+
+     O
+<   /|\   >
+    /|\
+
+     o
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+3
+
+
+     ---------
+
+
+You are currently at position of 1,3
+You have the following ways
+
+     o
+
+     O
+<   /|\   >
+    /|\
+
+     o
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+3
+
+
+
+     ---------
+
+
+You are currently at position of 1,4
+You have the following ways
+
+     o
+
+     O
+<   /|\   o
+    /|\
+
+     V
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+1
+
+
+
+     ---------
+
+
+You are currently at position of 2,4
+You have the following ways
+
+     ^
+
+     O
+<   /|\   o
+    /|\
+
+     o
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+2
+
+
+
+     ---------
+
+
+You are currently at position of 2,3
+You have the following ways
+
+     o
+
+     O
+<   /|\   >
+    /|\
+     V
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+2
+
+
+
+     ---------
+
+
+You are currently at position of 2,2You have got the key
+You have the following ways
+
+     o
+
+     O
+o   /|\   >
+    /|\
+
+     o
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+3
+
+
+
+     ---------
+
+
+You are currently at position of 2,3
+You have the following ways
+     o
+
+     O
+<   /|\   >
+    /|\
+
+     V
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+3
+
+
+
+     ---------
+
+
+You are currently at position of 2,4
+You have the following ways
+
+     ^
+
+     O
+<   /|\   o
+    /|\
+
+     o
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+2
+
+
+     ---------
+
+
+You are currently at position of 2,3
+You have the following ways
+
+     o
+
+     O
+<   /|\   >
+    /|\
+
+     V
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+1
+
+
+
+     ---------
+
+
+You are currently at position of 3,3
+You have the following ways
+
+     ^
+
+     O
+o   /|\   >
+    /|\
+
+     V
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+1
+
+
+
+     ---------
+
+
+You are currently at position of 4,3
+CAUTIOUS !!! Bomb a head
+You have the following ways
+
+     ^
+
+     O
+<   /|\   >
+    /|\
+
+     o
+
+Enter the direction you want to move ::
+0-top
+1-bottom
+2-left
+3-right
+4-exit
+5-hint
+
+3
+Congratulations you have won the game
+==549485==
+==549485== HEAP SUMMARY:
+==549485==     in use at exit: 944 bytes in 2 blocks
+==549485==   total heap usage: 6 allocs, 4 frees, 11,184 bytes allocated
+==549485==
+==549485== LEAK SUMMARY:
+==549485==    definitely lost: 0 bytes in 0 blocks
+==549485==    indirectly lost: 0 bytes in 0 blocks
+==549485==      possibly lost: 0 bytes in 0 blocks
+==549485==    still reachable: 944 bytes in 2 blocks
+==549485==         suppressed: 0 bytes in 0 blocks
+==549485== Rerun with --leak-check=full to see details of leaked memory
+==549485==
+==549485== For lists of detected and suppressed errors, rerun with: -s
+==549485== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
